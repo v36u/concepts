@@ -2,6 +2,14 @@
 
 Here I'll note down curiosities and answers I found that do not require a project. This is why this directory is called "theory": it is only arbitrary text.
 
+## Table of contents
+
+- [1. yaml vs yml](#1-yaml-vs-yml)
+  - [Definition of YAML](#definition-of-yaml)
+  - [Answer](#answer)
+
+*Generated with [bitdowntoc](https://github.com/derlin/bitdowntoc)*
+
 ## 1. yaml vs yml
 
 ### Definition of YAML
