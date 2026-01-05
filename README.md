@@ -1,3 +1,3 @@
-# concepts
+# Concepts
 
 Learning software engineering concepts :)
