@@ -44,7 +44,8 @@ public class Claim
         _stateMachine.OnUnhandledTrigger(OnUnhandledTrigger);
 
         _stateMachine.Configure(State.PendingStart)
-            .Permit(Trigger.UserStart, State.Draft);
+            .Permit(Trigger.UserStart, State.Draft)
+            .Permit(Trigger.UserWithdraw, State.Closed);
 
         _stateMachine.Configure(State.Draft)
             .PermitReentry(Trigger.UserAddInfo)
